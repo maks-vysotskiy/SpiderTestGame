@@ -1,0 +1,481 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.11f1 (99c7afb366b3) revision 10078127'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19043.1766; Version 2009; 64bit' Language: 'ru' Physical Memory: 14274 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Editor\2020.3.11f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+M:/Projects/Projects_Unity/TestTaskForEudokiaGames/TestTask
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51418
+Successfully changed project path to: M:/Projects/Projects_Unity/TestTaskForEudokiaGames/TestTask
+M:/Projects/Projects_Unity/TestTaskForEudokiaGames/TestTask
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 35.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.11f1 (99c7afb366b3)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path M:/Projects/Projects_Unity/TestTaskForEudokiaGames/TestTask/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4021 MB
+    Driver:   27.21.14.5167
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56772
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Editor/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004075 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.08 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.908 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008351 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.711 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.34 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1386 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.7 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1819.
+Total: 2.341000 ms (FindLiveObjects: 0.179000 ms CreateObjectMapping: 0.035700 ms MarkObjects: 2.024600 ms  DeleteObjects: 0.099800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Prefab
+  artifactKey: Guid(289f9fb0d512cc9408b6799907f3e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab using Guid(289f9fb0d512cc9408b6799907f3e9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6303814ee72e95c21034b5af72402ca') in 0.006754 seconds
+  Import took 0.010868 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006175 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.620 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.40 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 64.6 MB.
+System memory in use after: 64.7 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1823.
+Total: 2.138000 ms (FindLiveObjects: 0.186600 ms CreateObjectMapping: 0.040600 ms MarkObjects: 1.835800 ms  DeleteObjects: 0.073600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 142.302412 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Candle_02.fbx
+  artifactKey: Guid(5c12b1a3ce4add64ca48cab846fd3897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Candle_02.fbx using Guid(5c12b1a3ce4add64ca48cab846fd3897) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '555500768a1071ea748ab2ff92e27d30') in 0.528884 seconds
+  Import took 0.532508 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.008999 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Book_01.fbx
+  artifactKey: Guid(1532c8db05f7968449acc97e741cd41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Book_01.fbx using Guid(1532c8db05f7968449acc97e741cd41a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3210b09e01939052b22e7f64f185e2e2') in 0.019537 seconds
+  Import took 0.022970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.122329 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Book_01.prefab
+  artifactKey: Guid(d9067523636e52b4b83b0dceda977382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Book_01.prefab using Guid(d9067523636e52b4b83b0dceda977382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d09944dc9e39fec00f719a27dd783') in 0.024895 seconds
+  Import took 0.030177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114674 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Book_01.prefab
+  artifactKey: Guid(d9067523636e52b4b83b0dceda977382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Book_01.prefab using Guid(d9067523636e52b4b83b0dceda977382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629d09944dc9e39fec00f719a27dd783') in 0.020736 seconds
+  Import took 0.025634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.659001 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Candle_02.prefab
+  artifactKey: Guid(8bdd30bfdcc16fe48a19bd66ff43f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Candle_02.prefab using Guid(8bdd30bfdcc16fe48a19bd66ff43f439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04b7bf4670eafa6d41ac4017097ef0b9') in 0.024800 seconds
+  Import took 0.036031 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.903224 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Animations
+  artifactKey: Guid(5c5008b52e70fc145b7d21e88f9f940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Animations using Guid(5c5008b52e70fc145b7d21e88f9f940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a357aef3ba6880094261bce42f4da7') in 0.002617 seconds
+  Import took 0.005397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008420 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Animations
+  artifactKey: Guid(5c5008b52e70fc145b7d21e88f9f940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Animations using Guid(5c5008b52e70fc145b7d21e88f9f940a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0a357aef3ba6880094261bce42f4da7') in 0.002257 seconds
+  Import took 0.004867 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 37.056837 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Shield_Heater.fbx
+  artifactKey: Guid(2456668de829f9d49a7f729dde72143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Shield_Heater.fbx using Guid(2456668de829f9d49a7f729dde72143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4d0640670d568e6dc588bbfd74c7a') in 0.022973 seconds
+  Import took 0.027443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011900 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Shield_Heater.fbx
+  artifactKey: Guid(2456668de829f9d49a7f729dde72143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Models/Shield_Heater.fbx using Guid(2456668de829f9d49a7f729dde72143d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cb4d0640670d568e6dc588bbfd74c7a') in 0.023525 seconds
+  Import took 0.027956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.198987 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Goblet.prefab
+  artifactKey: Guid(76dfe82f71534ea41ba4b53f38cfdb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Goblet.prefab using Guid(76dfe82f71534ea41ba4b53f38cfdb1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b87aab42013ed111ac873552a049d9ad') in 0.024932 seconds
+  Import took 0.030122 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.849008 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Particle_Torch_Flame.prefab
+  artifactKey: Guid(12be955edf8b3be46a83381b0d15bd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Particle_Torch_Flame.prefab using Guid(12be955edf8b3be46a83381b0d15bd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2467f51fdfa583780d7b07bda1add49f') in 0.009717 seconds
+  Import took 0.012721 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028870 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Particle_Torch_Flame.prefab
+  artifactKey: Guid(12be955edf8b3be46a83381b0d15bd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Particle_Torch_Flame.prefab using Guid(12be955edf8b3be46a83381b0d15bd58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2467f51fdfa583780d7b07bda1add49f') in 0.005730 seconds
+  Import took 0.008778 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011771 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Materials/RNLowPolyDungeon_ParticleGlow.mat
+  artifactKey: Guid(6d9a9cfe635b88140a8925ea416e748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Materials/RNLowPolyDungeon_ParticleGlow.mat using Guid(6d9a9cfe635b88140a8925ea416e748f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54b4fbb916844a75dc7319e7975aff62') in 0.116978 seconds
+  Import took 0.120222 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.982424 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Shield_Heater.prefab
+  artifactKey: Guid(a427b3dea6358574a981cbcc89c21e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Shield_Heater.prefab using Guid(a427b3dea6358574a981cbcc89c21e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666a7ec19477dd74aad47011ae71dd2') in 0.021148 seconds
+  Import took 0.026702 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010077 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Shield_Heater.prefab
+  artifactKey: Guid(a427b3dea6358574a981cbcc89c21e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Shield_Heater.prefab using Guid(a427b3dea6358574a981cbcc89c21e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1666a7ec19477dd74aad47011ae71dd2') in 0.014222 seconds
+  Import took 0.018166 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.951291 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Table_Wood_Square.prefab
+  artifactKey: Guid(e31373fd990afd445898eb8046cb87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Table_Wood_Square.prefab using Guid(e31373fd990afd445898eb8046cb87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866421f10d87554c32736b03557009b8') in 0.016935 seconds
+  Import took 0.020436 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010558 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Table_Wood_Square.prefab
+  artifactKey: Guid(e31373fd990afd445898eb8046cb87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Table_Wood_Square.prefab using Guid(e31373fd990afd445898eb8046cb87ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '866421f10d87554c32736b03557009b8') in 0.014454 seconds
+  Import took 0.018099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.659391 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Torch_Wall_01_Lit.prefab
+  artifactKey: Guid(1fee6dd998d7f2044b7f0a7e3f186e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Torch_Wall_01_Lit.prefab using Guid(1fee6dd998d7f2044b7f0a7e3f186e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f363889f803910687886dd539cb3b') in 0.029169 seconds
+  Import took 0.034171 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014010 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Torch_Wall_01_Lit.prefab
+  artifactKey: Guid(1fee6dd998d7f2044b7f0a7e3f186e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Torch_Wall_01_Lit.prefab using Guid(1fee6dd998d7f2044b7f0a7e3f186e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150f363889f803910687886dd539cb3b') in 0.022401 seconds
+  Import took 0.027179 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.334529 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_01.prefab
+  artifactKey: Guid(6cf39e64bf60edb4d8584f15f586d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_01.prefab using Guid(6cf39e64bf60edb4d8584f15f586d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e290caafad4056670738d122f6007') in 0.021714 seconds
+  Import took 0.030958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008195 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_01.prefab
+  artifactKey: Guid(6cf39e64bf60edb4d8584f15f586d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_01.prefab using Guid(6cf39e64bf60edb4d8584f15f586d3fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c67e290caafad4056670738d122f6007') in 0.016673 seconds
+  Import took 0.020706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.724791 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Archway.prefab
+  artifactKey: Guid(c77b8b676e1e13d448487000862a03ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Archway.prefab using Guid(c77b8b676e1e13d448487000862a03ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dc46f2a0bb50e2d84740aa3e3a1c12') in 0.016991 seconds
+  Import took 0.020499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011700 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Archway.prefab
+  artifactKey: Guid(c77b8b676e1e13d448487000862a03ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Archway.prefab using Guid(c77b8b676e1e13d448487000862a03ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1dc46f2a0bb50e2d84740aa3e3a1c12') in 0.017959 seconds
+  Import took 0.022181 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.935900 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Trim_02_1m.prefab
+  artifactKey: Guid(57ed4b80c1e67924fa55b41eea22fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Trim_02_1m.prefab using Guid(57ed4b80c1e67924fa55b41eea22fb8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6adefdd1371c4bd9d0279e204fd6bb0c') in 0.016636 seconds
+  Import took 0.021491 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.625701 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Trim_02_4m.prefab
+  artifactKey: Guid(cea4ce3effd7ece4baf47e6522ac8d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Wall_Trim_02_4m.prefab using Guid(cea4ce3effd7ece4baf47e6522ac8d45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c224bff6dd01e5d43dd3cafed3c4d937') in 0.026010 seconds
+  Import took 0.030551 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.079384 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Chair_Wood.prefab
+  artifactKey: Guid(fc9740cb9e8621846a53bd4580042602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Chair_Wood.prefab using Guid(fc9740cb9e8621846a53bd4580042602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86dd9d53d93bb167b24f440ca17a533') in 0.020567 seconds
+  Import took 0.025466 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001589 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Chair_Wood.prefab
+  artifactKey: Guid(fc9740cb9e8621846a53bd4580042602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Chair_Wood.prefab using Guid(fc9740cb9e8621846a53bd4580042602) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f86dd9d53d93bb167b24f440ca17a533') in 0.016783 seconds
+  Import took 0.021978 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.376247 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Crate_Animated.prefab
+  artifactKey: Guid(555a3ef0d240b3149bb120a1bfbaaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Crate_Animated.prefab using Guid(555a3ef0d240b3149bb120a1bfbaaefa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0240cbfc8c3b071d71ee9aa5a7be00e') in 0.034297 seconds
+  Import took 0.040827 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.191964 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Floor_Tiles_Diagonal.prefab
+  artifactKey: Guid(d58f7109f50ab3d4990e33878170cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Floor_Tiles_Diagonal.prefab using Guid(d58f7109f50ab3d4990e33878170cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85519d62398f9445e9bf209627e5ae13') in 0.015547 seconds
+  Import took 0.019178 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013311 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Floor_Tiles_Diagonal.prefab
+  artifactKey: Guid(d58f7109f50ab3d4990e33878170cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Floor_Tiles_Diagonal.prefab using Guid(d58f7109f50ab3d4990e33878170cd89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85519d62398f9445e9bf209627e5ae13') in 0.012742 seconds
+  Import took 0.016211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 65.386892 seconds.
+  path: Assets/Spiders/Prefabs
+  artifactKey: Guid(c337b06255826084cbc392fb8903968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Prefabs using Guid(c337b06255826084cbc392fb8903968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8750793a272c195ea5fc942e6d6ed531') in 0.004137 seconds
+  Import took 0.008612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.597872 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Scenes
+  artifactKey: Guid(ec31a0a72afbcf84eab13eab94fc62f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Scenes using Guid(ec31a0a72afbcf84eab13eab94fc62f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d519ce1ae39656165e18b0525a5fc0') in 0.002469 seconds
+  Import took 0.004985 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.864878 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs
+  artifactKey: Guid(ff7988a8692bd9d438d2a97566466ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs using Guid(ff7988a8692bd9d438d2a97566466ac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ce4a13b04b2058a249a5abdd0c8dea') in 0.002328 seconds
+  Import took 0.006403 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 131.963054 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Lever_Wall_Animated.prefab
+  artifactKey: Guid(85208fed3a5a2a649a3b4b4869413d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Lever_Wall_Animated.prefab using Guid(85208fed3a5a2a649a3b4b4869413d6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bbf8b230a51c6a7f3e36928aa71c9b') in 0.020847 seconds
+  Import took 0.024977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.135182 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Skull.prefab
+  artifactKey: Guid(7c5921d781cf5614691c402476f851f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Skull.prefab using Guid(7c5921d781cf5614691c402476f851f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa0421189d22bcc75550eb0b0bab7594') in 0.016278 seconds
+  Import took 0.020877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.544771 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Spiderweb_Decal_01.prefab
+  artifactKey: Guid(82482947012ac0c42bd9635b7aa2e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Spiderweb_Decal_01.prefab using Guid(82482947012ac0c42bd9635b7aa2e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e44c1da26215a199cbcfc0e29935be') in 0.226192 seconds
+  Import took 0.229928 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007189 seconds.
+  path: Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Spiderweb_Decal_01.prefab
+  artifactKey: Guid(82482947012ac0c42bd9635b7aa2e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Red Nebula Studios/RNLowPolyDungeonLite/Prefabs/Spiderweb_Decal_01.prefab using Guid(82482947012ac0c42bd9635b7aa2e93b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e44c1da26215a199cbcfc0e29935be') in 0.014909 seconds
+  Import took 0.019431 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 864.962483 seconds.
+  path: Assets/Ьфеукшфд
+  artifactKey: Guid(07c3d918ca8c0c7499f02d652561359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Ьфеукшфд using Guid(07c3d918ca8c0c7499f02d652561359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa4722e5f9b282f087d328b3a8de2e2') in 0.005026 seconds
+  Import took 0.010397 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.355578 seconds.
+  path: Assets/Material
+  artifactKey: Guid(07c3d918ca8c0c7499f02d652561359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Material using Guid(07c3d918ca8c0c7499f02d652561359a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adafffb9dbe56201253a510f449366f7') in 0.002478 seconds
+  Import took 0.005054 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005773 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.673 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 68.7 MB.
+System memory in use after: 68.8 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 1872.
+Total: 4.089000 ms (FindLiveObjects: 0.270300 ms CreateObjectMapping: 0.074400 ms MarkObjects: 3.608200 ms  DeleteObjects: 0.132900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 2275.901404 seconds.
+  path: Assets/Spiders/Models/spider_black.fbx
+  artifactKey: Guid(2761082c7dc2b614392d66e8f87713e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Models/spider_black.fbx using Guid(2761082c7dc2b614392d66e8f87713e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '482ca30e89a8aed24ec1a0fbfff80a80') in 0.207487 seconds
+  Import took 0.211299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.833707 seconds.
+  path: Assets/Spiders/Models/spider_brown.fbx
+  artifactKey: Guid(fd73d169071bf0c4ba1c19ec6340eb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Models/spider_brown.fbx using Guid(fd73d169071bf0c4ba1c19ec6340eb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd289d510025e07e4e968f9cca716229c') in 0.054157 seconds
+  Import took 0.057383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.505202 seconds.
+  path: Assets/Spiders/Models/spider_green.fbx
+  artifactKey: Guid(b332d0a35f177a846a778e57e5d319a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Models/spider_green.fbx using Guid(b332d0a35f177a846a778e57e5d319a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891d6d2bfac811fa6f7f8b75b26b63d5') in 0.098880 seconds
+  Import took 0.103616 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016475 seconds.
+  path: Assets/Spiders/Models/spider_green.fbx
+  artifactKey: Guid(b332d0a35f177a846a778e57e5d319a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Models/spider_green.fbx using Guid(b332d0a35f177a846a778e57e5d319a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891d6d2bfac811fa6f7f8b75b26b63d5') in 0.027840 seconds
+  Import took 0.031510 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003892 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.427 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.62 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1382 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 82.3 MB.
+System memory in use after: 82.4 MB.
+
+Unloading 14 unused Assets to reduce memory usage. Loaded Objects now: 1877.
+Total: 3.067100 ms (FindLiveObjects: 0.268800 ms CreateObjectMapping: 0.076200 ms MarkObjects: 2.628500 ms  DeleteObjects: 0.091800 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
