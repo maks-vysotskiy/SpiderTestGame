@@ -1,4 +1,4 @@
-using System.Collections;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using UnityEngine;
@@ -16,10 +16,18 @@ internal sealed class SpiderPool
     private readonly int _capasityPool;
     private readonly List<Transform> _spawnPoints;
 
+    private PointManager _pointManager;
+
     private Transform _rootPool;
 
-    public SpiderPool(int capasity, List<Transform> spawnPoints)
+    public int CountSpiderOnScene;
+
+    public event Action OnDeactivate = delegate { };
+
+
+    public SpiderPool(int capasity, List<Transform> spawnPoints, PointManager pointManager)
     {
+        _pointManager = pointManager;
         _spiderPool = new HashSet<Spider>();
         _capasityPool = capasity;
         _spawnPoints = spawnPoints;
@@ -28,7 +36,14 @@ internal sealed class SpiderPool
         {
             _rootPool = new GameObject(SpiderPoolName).transform;
         }
+        CountSpiderOnScene = 0;
+
         CreatePool(_capasityPool);
+    }
+
+    public void DeactivatePoolEntity()
+    {
+        OnDeactivate();
     }
 
     private string GetRandomSpider()
@@ -51,7 +66,7 @@ internal sealed class SpiderPool
 
     private void CreatePool(int capasity)
     {
-        for(int i=0; i<capasity; i++)
+        for (int i = 0; i < capasity; i++)
         {
             var spider = Resources.Load<Spider>(GetRandomSpider());
             if (spider)
@@ -65,14 +80,22 @@ internal sealed class SpiderPool
                 Debug.LogError("I have not this type of spider");
             }
         }
-        
     }
 
-    public Spider TakeSpider()
+    public Spider TakeSpider(float speedSpider, float speedAnimationSpider)
     {
         var spider = _spiderPool.FirstOrDefault(s => !s.gameObject.activeSelf);
         spider.GetPool(this);
+        spider.GetPointManager(_pointManager);
+        spider.Speed = speedSpider;
+        spider.AnimationSpeed = speedAnimationSpider;
+        CountSpiderOnScene++;
         return ActiveSpider(spider);
+    }
+
+    public void CalculateSpiderOnSceneAfterDeathSpider()
+    {
+        CountSpiderOnScene--;
     }
 
     public void ReturnToPool(Spider spider)
@@ -91,9 +114,8 @@ internal sealed class SpiderPool
         transform.localRotation = _spawnPoints[randSpawnPoint].rotation;
         transform.gameObject.SetActive(true);
         transform.SetParent(null);
-
+        spider.ActivateSpiderSettings();
         return spider;
     }
-
 }
 

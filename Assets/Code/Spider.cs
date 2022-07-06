@@ -12,12 +12,36 @@ public class Spider : MonoBehaviour
 
     private SpiderMove _spiderMove;
     private SpiderPool _spiderPool;
+    private PointManager _pointManager;
 
-    private float _timeForDeath = 2.5f;
-    private bool _isDeath;
+    private int _pointsForSpider = 1;
+    private float _timeForDeath = 1.5f;
 
-    public float Speed => _speed;
-    public float AnimationSpeed => _animationSpeed;
+    public bool _isDeath;
+
+    public float Speed
+    {
+        get
+        {
+            return _speed;
+        }
+        set
+        {
+            _speed = value;
+        }
+    }
+
+    public float AnimationSpeed
+    {
+        get
+        {
+            return _animationSpeed;
+        }
+        set
+        {
+            _animationSpeed = value;
+        }
+    }
 
     public Transform Transform => _transform;
 
@@ -30,6 +54,8 @@ public class Spider : MonoBehaviour
         _isDeath = false;
         _spiderMove = new SpiderMove(this);
         _animator.speed = _animationSpeed;
+
+        _spiderPool.OnDeactivate += Death;
     }
 
     private void FixedUpdate()
@@ -37,15 +63,14 @@ public class Spider : MonoBehaviour
         _spiderMove.FixedExecute(_isDeath);
     }
 
-    private void OnCollisionEnter(Collision collision)
+    private void Update()
     {
-        _spiderMove.OnCollisionEnter(collision);
-
+        _spiderMove.Execute(_isDeath);
     }
 
     private void OnMouseDown()
     {
-       Death();
+        Death();
     }
 
     internal void GetPool(SpiderPool pool)
@@ -53,19 +78,37 @@ public class Spider : MonoBehaviour
         _spiderPool = pool;
     }
 
+    internal void GetPointManager(PointManager pointManager)
+    {
+        _pointManager = pointManager;
+    }
+
     private void Death()
     {
+        if (_isDeath)
+        {
+            return;
+        }
+
+        _spiderPool.CalculateSpiderOnSceneAfterDeathSpider();
+        _pointManager.CalculatePoints(_pointsForSpider);
         _isDeath = true;
-        _rigidbody.velocity = new Vector3(0, 0, 0);
         _animator.SetBool("Death", true);
+        _spiderPool.OnDeactivate -= Death;
+
         StartCoroutine(WaitDeath());
     }
 
     private IEnumerator WaitDeath()
     {
         yield return new WaitForSeconds(_timeForDeath);
-        _isDeath = false;
         _spiderPool.ReturnToPool(this);
+    }
+    
+    public void ActivateSpiderSettings()
+    {
+        _spiderPool.OnDeactivate += Death;
+        _isDeath = false;
     }
 
 }

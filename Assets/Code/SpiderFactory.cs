@@ -1,32 +1,47 @@
-﻿using System;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 internal sealed class SpiderFactory
 {
     private readonly SpiderPool _spiderPool;
-    private readonly float _timeSpawnSpider;
 
+    private float _timeSpawnSpider;
     private float _time = 0f;
 
-    public SpiderFactory(SpiderPool spiderPool, float timeSpawnSpider)
+    private float _startSpeedSpider;
+    private float _startSpeedAnimationSpider;
+
+    public SpiderFactory(SpiderPool spiderPool, float timeSpawnSpider, float startSpeedSpider, float startSpeedAnimationSpider)
     {
         _spiderPool = spiderPool;
         _timeSpawnSpider = timeSpawnSpider;
+        _startSpeedSpider = startSpeedSpider;
+        _startSpeedAnimationSpider = startSpeedAnimationSpider;
     }
 
-    public Spider GetSpider()
+    public Spider GetSpider(float startSpeedSpider, float startSpeedAnimationSpider)
     {
-        var spider = _spiderPool.TakeSpider();
+        var spider = _spiderPool.TakeSpider(startSpeedSpider, startSpeedAnimationSpider);
         return spider;
+    }
+
+    public void GetNewTimeSpawn(float timeSpawn)
+    {
+        _timeSpawnSpider = timeSpawn;
+    }
+
+    public void GetNewSpeedSpiderParamerts(float speedSpider, float speedAnimationSpider)
+    {
+        _startSpeedSpider = speedSpider;
+        _startSpeedAnimationSpider = speedAnimationSpider;
     }
 
     public void Execute()
     {
         _time += Time.deltaTime;
-        if(_time>=_timeSpawnSpider)
+
+        if (_time >= _timeSpawnSpider)
         {
-            GetSpider();
+            GetSpider(_startSpeedSpider, _startSpeedAnimationSpider);
             _time = 0;
         }
     }
