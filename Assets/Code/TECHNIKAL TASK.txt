@@ -1,0 +1,47 @@
+Need to develop a clicker game.
+Main goals:
+* the final application must be an android application.
+* the game should have a menu (buttons: new game, list of records, credits, exit the game).
+* when starting the game - the player must see the field where the monsters will spawn.
+* different monsters should spawn on the field with random frequency and random place of the field.
+* defeat condition - 10 monsters on the field.
+* boosters - freezing spawn for 3 seconds / killing all monsters.
+* graphic requirements: the project must be in 3D.
+* increasing difficulty (monster movement speed after spawn, HP (number of taps on the monster required to kill) and spawn speed).
+
+Additional tasks:
++ the field can be made non-static, add screen movement across the field and highlight when spawning into enemies (in which direction from the current position it spawned).
++ more boosters
++ graphic effects (animations, effects when spawning/killing monsters).
++ music/sounds.
+
+Recommendations:
+Be sure to do the main part of the test task. For an additional part, the chance of a successful passage increases :)
+Of course, use OOP, SOLID and patterns where necessary (you can also use event systems, etc.)...
+Of course, do not use examples on the Internet or from video tutorials. The project must be made from scratch :)
+Of course, other models can be used.
+
+
+
+Нужно разработать игру жанра кликер.
+Основные задачи:
+* итоговым приложением должно быть приложение на андроид.
+* в игре должно быть меню(кнопки:новая игра, список рекордов, титры, выход из игры).
+* при запуске игры - игрок должен видеть поле, на котором будут спавниться монстры.
+* на поле со случайной периодичностью и случайном месте поля должны спавниться разные монстры.
+* условие поражения - 10 монстров на поле.
+* бустеры - заморозка спавна на 3 секунды/ убийство всех монстров.
+* графическое требования: проект должен быть в 3D.
+* возрастающая сложность(скорость перемещения монстра после спавна, ХП(количество тапов по монстру требуемого для убийства) и скорость спавна).
+
+Дополнительные задачи:
++ поле можно сделать не статичным, добавить передвижение экрана по полю и подсветку при спавне в врагов(в какой стороне от текущей позиции заспавнился).
++ еще бустеры
++ графические эффекты(анимации, эффекты при спавне/убийстве монстров).
++ музыка/звуки.
+
+Рекомендации:
+Обязательно нужно сделать основную часть тестового задания. За дополнительную часть повышается шанс успешного прохождения :)
+Конечно же, используйте ООП, SOLID и паттерны где надо(можно и системы событий и т.д.)...
+Конечно же, не используйте примеры в интернете или из видео уроков. Проект должен быть сделан с нуля :)
+Конечно же, можно использовать чужие модели.
